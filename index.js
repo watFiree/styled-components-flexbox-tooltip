@@ -27,8 +27,7 @@ export const CenterCenterColumn = css`
 `;
 
 export const CenterAround = css`
-  display: flex;
-  align-items: center;
+  ${CenterDefault};
   justify-content: space-around;
 `;
 
@@ -38,12 +37,21 @@ export const CenterAroundColumn = css`
 `;
 
 export const CenterBetween = css`
-  display: flex;
-  align-items: center;
+  ${CenterDefault};
   justify-content: space-between;
 `;
 
 export const CenterBetweenColumn = css`
+  ${CenterBetween};
+  flex-direction: column;
+`;
+
+export const CenterEvenly = css`
+  ${CenterDefault};
+  justify-content: space-evenly;
+`;
+
+export const CenterEvenlyColumn = css`
   ${CenterBetween};
   flex-direction: column;
 `;

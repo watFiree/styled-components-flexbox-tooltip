@@ -1,17 +1,14 @@
 {
-  "name": "styled-components-flexbox-tooltip",
+  "name": "@watFiree/flexbox-tooltip",
   "version": "1.0.0",
   "description": "Flexbox tooltip for styled-components",
   "main": "index.js",
+  "repository": "https://github.com/watFiree/styled-components-flexbox-tooltip.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "styled-components",
-    "flexbox"
-  ],
-  "author": "Karol Piotrowicz",
-  "license": "ISC",
+  "author": "watFiree",
+  "license": "Unlicensed",
   "dependencies": {
     "styled-components": "^5.1.1"
   },
