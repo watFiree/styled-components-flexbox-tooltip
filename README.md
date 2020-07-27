@@ -45,6 +45,31 @@ const Wrapper = styled.div`
 `;
 ```
 
+## Instruction
+
+<p>
+For a better experience, I prefer to import package with <b>* </b> and use as <b>flex </b>
+(import * as flex from 'styled-components-flexbox-tooltip'), then we can use this like above;
+
+The first word is <b>align-center property</b>
+the second <b>justify-content</b> and
+the last determines its <b>direction</b>.
+
+</p>
+
+## All options:
+
+- CenterDefault
+- DefaultCenter
+- CenterCenter
+- CenterCenterColumn
+- CenterAround
+- CenterAroundColumn
+- CenterBetween
+- CenterBetweenColumn
+- CenterEvenly
+- CenterEvenlyColumn
+
 ## Creators
 
 | [<img alt="watFiree" src="https://avatars2.githubusercontent.com/u/60156526?v=4&s=1 width=1">](https://github.com/watFiree) |
