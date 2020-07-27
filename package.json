@@ -1,0 +1,21 @@
+{
+  "name": "styled-components-flexbox-tooltip",
+  "version": "1.0.0",
+  "description": "Flexbox tooltip for styled-components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "styled-components",
+    "flexbox"
+  ],
+  "author": "Karol Piotrowicz",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^5.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
