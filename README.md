@@ -19,6 +19,7 @@
 ### Write
 
 ```jsx
+import styled from "styled-components";
 import * as flex from "styled-components-flexbox-tooltip";
 
 const Wrapper = styled.div`
@@ -31,6 +32,7 @@ const Wrapper = styled.div`
 ### Instead of
 
 ```jsx
+import styled from "styled-components";
 import * as flex from "styled-components-flexbox-tooltip";
 
 const Wrapper = styled.div`
