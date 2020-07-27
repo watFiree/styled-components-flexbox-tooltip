@@ -1,7 +1,7 @@
 <h1 align="center" > styled-components-flexbox-tooltip </h1>
 <br>
 <p align="center" >
-<img src="https://ibb.co/MDsxGqL" alt="Logo">
+<img src="https://i.ibb.co/VxzLr1v/Styledandflex.png" alt="Logo" border="0">
 </p>
 
 <br>
