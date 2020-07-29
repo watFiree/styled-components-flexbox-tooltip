@@ -60,7 +60,9 @@ the last determines its <b>direction</b>.
 ## All options:
 
 - CenterDefault
+- CenterDefaultColumn
 - DefaultCenter
+- DefaultCenterColumn
 - CenterCenter
 - CenterCenterColumn
 - CenterAround
@@ -69,6 +71,7 @@ the last determines its <b>direction</b>.
 - CenterBetweenColumn
 - CenterEvenly
 - CenterEvenlyColumn
+- Wrap
 
 ## Creators
 

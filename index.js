@@ -11,9 +11,19 @@ export const CenterDefault = css`
   align-items: center;
 `;
 
+export const CenterDefaultColumn = css`
+  ${CenterDefault};
+  flex-direction: column;
+`;
+
 export const DefaultCenter = css`
   display: flex;
   justify-content: center;
+`;
+
+export const DefaultCenterColumn = css`
+  ${DefaultCenter};
+  flex-direction: column;
 `;
 
 export const CenterCenter = css`
@@ -56,11 +66,18 @@ export const CenterEvenlyColumn = css`
   flex-direction: column;
 `;
 
+export const Wrap = css`
+  flex-wrap: wrap;
+`;
+
 export default {
   CenterDefault,
+  CenterDefaultColumn,
   DefaultCenter,
+  DefaultCenterColumn,
   CenterCenter,
   CenterBetweenColumn,
   CenterEvenly,
   CenterEvenlyColumn,
+  Wrap,
 };
