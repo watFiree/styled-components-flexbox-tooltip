@@ -20,7 +20,7 @@
 
 ```jsx
 import styled from "styled-components";
-import * as flex from "styled-components-flexbox-tooltip";
+import flex from "styled-components-flexbox-tooltip";
 
 const Wrapper = styled.div`
   ${flex.CenterCenterColumn};
@@ -33,7 +33,6 @@ const Wrapper = styled.div`
 
 ```jsx
 import styled from "styled-components";
-import * as flex from "styled-components-flexbox-tooltip";
 
 const Wrapper = styled.div`
   display: flex;
@@ -48,8 +47,6 @@ const Wrapper = styled.div`
 ## Instruction
 
 <p>
-For a better experience, I prefer to import package with <b>* </b> and use as <b>flex </b>
-(import * as flex from 'styled-components-flexbox-tooltip'), then we can use this like above;
 
 The first word is <b>align-center property</b>
 the second <b>justify-content</b> and

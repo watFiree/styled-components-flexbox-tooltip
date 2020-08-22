@@ -62,7 +62,7 @@ export const CenterEvenly = css`
 `;
 
 export const CenterEvenlyColumn = css`
-  ${CenterBetween};
+  ${CenterEvenly};
   flex-direction: column;
 `;
 
@@ -76,6 +76,10 @@ export default {
   DefaultCenter,
   DefaultCenterColumn,
   CenterCenter,
+  CenterCenterColumn,
+  CenterAround,
+  CenterAroundColumn,
+  CenterBetween,
   CenterBetweenColumn,
   CenterEvenly,
   CenterEvenlyColumn,
