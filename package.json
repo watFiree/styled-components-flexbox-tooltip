@@ -1,8 +1,9 @@
 {
   "name": "@watFiree/flexbox-tooltip",
-  "version": "1.3.1",
+  "version": "1.4.2",
   "description": "Flexbox tooltip for styled-components",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/watFiree/styled-components-flexbox-tooltip.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +11,13 @@
   "author": "watFiree",
   "license": "Unlicensed",
   "dependencies": {
+    "@types/styled-components": "^5.1.2",
     "styled-components": "^5.1.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
   }
 }
